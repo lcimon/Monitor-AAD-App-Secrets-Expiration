@@ -22,7 +22,7 @@ Time interval to monitor is fully configurable.
 | Name | Type | Description |
 |---|---|---|
 | ADDSecrets-Http with Azure AD | Connection Reference | Connection to query Graph API.<br />Use _https://graph.microsoft.com/_ for _Base Resource URL_ & _Azure AD Resource URI_ fields |
-| ADDSecrets-Outlook | Connection Reference | Outlook account used to send email |
+| ADDSecrets-Office 365 Outlook | Connection Reference | Outlook account used to send email |
 | ADDSecrets-Recipients  | Environment Variable | Emails to notify separated by semicolumn |
 | ADDSecrets-TimeInterval-Value | Environment Variable | Time interval to monitor _(Default: 1)_|
 | ADDSecrets-TimeInterval-Unit | Environment Variable | Unit of time interval to monitor _(Default: Month)_ |
