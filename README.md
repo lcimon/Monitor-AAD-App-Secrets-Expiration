@@ -1,7 +1,7 @@
 # Monitor-AAD-App-Secrets-Expiration
 Power Automate flow to get notified when an Azure AD App Secret expires soon
 
-This Power Automate flow helps to get notified with the list of Azure AD Application Secrets that expire soon.
+This Power Automate flow helps get notified with the list of Azure AD Application Secrets that expire soon.
 
 It leverage Graph API to check, from a daily basis, AAD Secrets that expire in a certain interval.
 Time interval to monitor is fully configurable.
